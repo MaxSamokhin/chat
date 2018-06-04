@@ -2,3 +2,4 @@ static/
 .pug.js
 etc/
 public/service/Ws.js
+webpack.config.js

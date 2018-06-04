@@ -1,14 +1,14 @@
-"use strict";
+'use strict';
 
-const path = require("path");
+const path = require('path');
 let ExtractTextPlugin = require('extract-text-webpack-plugin');
 let extractPlugin = new ExtractTextPlugin({filename: './[name].css'});
 
 module.exports = {
     entry: {
         main: [
-            "./public/index.js",
-            "./public/media/css/index.scss"
+            './public/index.js',
+            './public/media/css/index.scss'
         ],
     },
 
@@ -27,10 +27,10 @@ module.exports = {
             },
             {
                 test: /.(js)?$/,
-                loader: "babel-loader",
+                loader: 'babel-loader',
                 exclude: /node_modules/,
                 query: {
-                    presets: ["es2015"]
+                    presets: ['es2015']
                 },
             },
             {
@@ -46,7 +46,7 @@ module.exports = {
             },
             {
                 test: /\.pug$/,
-                loader: "pug-loader"
+                loader: 'pug-loader'
             },
 
         ]
