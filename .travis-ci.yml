@@ -1,6 +1,9 @@
-sudo: required
+sudo: enabled
 dist: trusty
 language: node_js
-node_js: '9'
-install: npm install
-script: npm run build
+node_js:
+  - "9"
+before_script:
+  - npm install
+script:
+  - npm run build
