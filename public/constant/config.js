@@ -1,6 +1,6 @@
 export default
 {
-  'apiPrefix': 'http://localhost',
+  'apiPrefix': 'http://138.68.96.188',
   'serverPort': 8002,
-  'BASE_URL_WS': '127.0.0.1:8002/ws'
+  'BASE_URL_WS': '138.68.96.188:8002/ws'
 }
