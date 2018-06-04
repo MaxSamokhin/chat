@@ -1,0 +1,4 @@
+export const WS_GET_INIT_DATA = 'WS_GET_INIT_DATA';
+export const WS_RECEIVED_INIT_DATA = 'WS_RECEIVED_INIT_DATA';
+export const ADD_MESSAGE = 'ADD_MESSAGE';
+export const INIT_LIST = 'INIT_LIST';

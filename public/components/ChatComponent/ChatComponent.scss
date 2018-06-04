@@ -1,0 +1,79 @@
+.chat {
+  width: 314px;
+  height: 559px;
+  background: url(../../media/images/background-chat.jpg) no-repeat;
+  display: flex;
+  flex-direction: column;
+
+  &__timer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: white;
+  }
+
+  &__header {
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    &__title {
+      color: white;
+      font-size: 17px;
+    }
+  }
+
+  &__messages {
+    overflow: auto;
+    overflow-x: hidden;
+    flex-grow: 1;
+  }
+
+  &__input-box {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    flex-shrink: 0;
+
+
+    &__textarea {
+      border: none;
+      outline: none;
+      background-color: black;
+      color: white;
+      resize: none;
+      overflow: auto;
+      width: 314px;
+      height: 55px;
+      box-sizing: border-box;
+      padding: 17px 20px;
+    }
+
+    &__submit-message {
+      outline: none;
+      border: 0;
+      background: transparent;
+      z-index: 1;
+      display: inline-block;
+      position: absolute;
+      left: 237px;
+      bottom: 30px;
+      background: url(../../media/images/send-button.bmp) no-repeat;
+      width: 54px;
+      height: 54px;
+
+      :hover {
+        filter: saturate(400%);
+      }
+    }
+  }
+}
+

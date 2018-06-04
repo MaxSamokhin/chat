@@ -1,0 +1,20 @@
+section(class='chat')
+    header(class='chat__header')
+        div(class='chat__header__title') #{header_title}
+
+    div(class='chat__timer')
+
+    main(class='chat__messages')
+
+
+    form(class='chat__input-box')
+        button(class='chat__input-box__submit-message')
+
+        textarea(
+            placeholder=textarea[0].placeholder,
+            class=textarea[0].class,
+            name=textarea[0].name,
+            rows=textarea[0].rows,
+            cols=textarea[0].cols,
+            required
+        )

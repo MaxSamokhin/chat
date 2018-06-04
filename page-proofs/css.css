@@ -1,0 +1,210 @@
+body {
+    background-color:  #ccc;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Karla-Bold;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.chat {
+    width: 314px;
+    height: 559px;
+    background: url(../public/media/images/background-chat.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__header {
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+
+.chat__header__title {
+    color: white;
+    font-size: 17px;
+}
+
+.chat__messages {
+    overflow:auto;
+    overflow-x:hidden;
+    flex-grow: 1;
+}
+
+.msg-box {
+    background: white;
+    color: black;
+    padding: 15px 10px;
+    margin: 15px 10px 0 10px;
+    max-width: 245px;
+    display: inline-block;
+    clear: both;
+    float: left;
+}
+
+.msg-box__username {
+    padding-top: 8px;
+    font-size: 13px;
+    color: brown;
+    text-align: left;
+}
+
+.msg-box_my {
+    margin-right: 10px;
+    float: right;
+}
+
+.msg-box__username_my {
+    text-align: right;
+}
+
+.chat__input-box {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    flex-shrink: 0;
+
+}
+
+.chat__input-box__textarea {
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    resize: none;
+    overflow: auto;
+    width: 314px;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 17px 20px;
+}
+
+.chat__input-box__submit-message {
+    outline: none;
+    border: 0;
+    background: transparent;
+    z-index: 1;
+    display: inline-block;
+    position: absolute;
+    left:237px;
+    bottom: 20px;
+    background: url(../public/media/images/send-button.bmp) no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.chat__input-box__submit-message:hover {
+    filter: saturate(400%);
+}
+
+.login {
+    width: 314px;
+    height: 559px;
+    background: url(../public/media/images/background-signin.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login__header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.login__title {
+    width: 200px;
+    font-size: 75px;
+    color: white;
+    z-index: 1;
+    margin-left: -7px;
+    user-select: none;
+}
+
+.login__icon {
+    width: 168px;
+    height: 178px;
+    margin-top: -80px;
+    margin-left: 75px;
+}
+
+.form {
+    width: 274px;
+    height: 159px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form__info__title {
+    color: brown;
+    text-transform: uppercase;
+    font-size: 13px;
+    user-select: none;
+}
+
+.form__info__input {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ddd;
+    height: 25px;
+    width: 210px;
+}
+
+.form__info__input_error {
+    border:1px solid brown;
+}
+
+.form__info__input:focus {
+    border-bottom: 1px solid gray;
+}
+
+.form__button {
+    width: 100%;
+    height: 50px;
+    background: blue;
+    text-align: right;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background: mediumblue;
+}
+
+.form__button__text {
+    color: white;
+    font-size: 14px;
+    line-height: 50px;
+    margin-right: 30px;
+    user-select: none;
+}

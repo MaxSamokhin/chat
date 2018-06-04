@@ -1,0 +1,12 @@
+.timer-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: -5px;
+
+  &__image {
+    width: 24px;
+    height: 24px;
+    background: url(../../media/images/time.bmp) no-repeat;
+  }
+}

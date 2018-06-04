@@ -1,0 +1,16 @@
+form(class='form',method=method, name=name)
+
+    div(class='form__info')
+        div(class='form__info__title') #{fields[0].title}
+        input(class='form__info__input',
+        type=fields[0].type,
+        name=fields[0].name,
+        placeholder=fields[0].placeholder)
+
+        div(class='error')
+
+    div(class='form__button')
+        div(
+            class=buttons[0].class_button,
+        ) #{buttons[0].text}
+

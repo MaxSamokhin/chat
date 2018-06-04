@@ -1,0 +1,10 @@
+each mess in messages
+    case mess.isMy
+        when true
+            div(class='msg-box')
+                div(class='msg-box__msg') #{mess.text}
+                div(class='msg-box__username') #{mess.username}
+        when false
+            div(class='msg-box msg-box_my')
+                div(class='msg-box__msg') #{mess.text}
+                div(class='msg-box__username msg-box__username_my') #{mess.username}

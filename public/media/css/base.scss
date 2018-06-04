@@ -1,0 +1,33 @@
+@font-face {
+  src: url(../fonts/Karla-Bold.ttf);
+  font-family: Karla-Bold;
+}
+
+body {
+  background-color:  #ccc;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Karla-Bold;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}

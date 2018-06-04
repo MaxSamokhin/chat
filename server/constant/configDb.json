@@ -1,0 +1,9 @@
+{
+  "serverPort": 8002,
+  "db": {
+    "name": "chat",
+    "host": "localhost",
+    "port": 27017
+  }
+}
+
