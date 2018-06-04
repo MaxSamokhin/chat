@@ -8,7 +8,6 @@
     "build": "./node_modules/.bin/webpack -p --config webpack.config.js",
     "start-front": "babel-node front-server.js",
     "start-back": "babel-node server/app.js",
-    "start": "npm run build && npm run build-front && npm run start-front",
     "eslint-fix": "./node_modules/.bin/eslint --fix ./src/"
   },
   "keywords": [],
