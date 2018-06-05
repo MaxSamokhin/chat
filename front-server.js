@@ -10,6 +10,9 @@ app.get('/', (req, res) => {
     res.redirect('/login');
 });
 
+app.get('*', (req, res) => {
+    res.status(404).sendFile('Sorry cant find that!');
+});
 
 const port = process.env.PORT || 8001;
 
