@@ -109,7 +109,6 @@ body, html {
 .chat__input-box__submit-message {
     outline: none;
     border: 0;
-    background: transparent;
     z-index: 1;
     display: inline-block;
     position: absolute;

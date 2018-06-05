@@ -77,3 +77,23 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .chat {
+    background-size: 100% 100%;
+
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+  .chat__input-box__textarea {
+    width: auto;
+  }
+
+  .chat__input-box__submit-message {
+    left: auto;
+    right: 40px;
+  }
+
+}
+

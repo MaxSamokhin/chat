@@ -29,3 +29,11 @@
     background: url(../../media/images/icon.bmp) no-repeat;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .login {
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+  }
+}
