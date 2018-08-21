@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/MaxSamokhin/chat.svg?branch=master)](https://travis-ci.org/MaxSamokhin/chat)
 
 ## Ссылка 
-[**open chat**](http://138.68.96.188/)
+[**open chat**](http://138.68.96.188:8001/)
 
 ## Инструкции по запуску
 
